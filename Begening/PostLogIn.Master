@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PostLogIn.Master.cs" Inherits="Begening.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <link rel="stylesheet" href="Styles/StyleSheet.css" />
+</head>
+<body >
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <div id="navBar">
+            <div id="logoDiv">
+                <img id="vegamLogo" src="Images/vegam_red.svg" alt="Vegam logo" />
+            </div>
+            
+            <div id="itemDiv">
+
+               <asp:Button ID="homeBtn" CausesValidation="false" class="navItem" runat="server" Text="Home" OnClick="homeBtn_Click" />
+                <asp:Button ID="contactBtn" CausesValidation="false" class="navItem" runat="server" Text="Conatct Us" OnClick="contactBtn_Click" />
+                <asp:Button ID="aboutBtn" CausesValidation="false" class="navItem" runat="server" Text="About" OnClick="aboutBtn_Click" />
+
+
+
+
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    <div id="LogOutDiv" style="margin-left:1000px">
+                    <%--<a id="logOutAnchor" href="Login.aspx">LogOut</a>--%>
+                </div>
+            </asp:ContentPlaceHolder>
+                
+            </div>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <footer id="footer">
+            <p>&copy; 2025 Vegam Solutions. All rights reserved.</p>
+        </footer>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <%--<script type="text/javascript">
+    if (window.performance && window.performance.navigation.type === 2) {
+        // This is a back/forward navigation, force reload
+        window.location.reload();
+    }
+    </script>--%>
+    <%--<script defer src="JavaScript/Script.js"></script>--%>
+</body>
+     
+</html>

@@ -1,0 +1,1 @@
+Truck number does not exist in system. Please check
