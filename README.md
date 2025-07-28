@@ -88,8 +88,6 @@ In the next version, this system will be upgraded to follow a **3-tier architect
 
 ## 📌 Author
 
----
-
 ## 🙋‍♂️ About Me
 
 I’m currently working as an **intern at Vegam Solutions**, where I’m gaining practical experience in full-stack development. This project was built to strengthen my understanding of scalable architecture, clean code practices, and integration of modern tools like **Knockout.js** with ASP.NET and WCF services.
