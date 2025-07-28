@@ -78,7 +78,7 @@ In the next version, this system will be upgraded to follow a **3-tier architect
 
 ## 📁 Tech Stack
 
-- **Frontend:** ASP.NET Web Forms, HTML5, CSS3, JavaScript, jQuery
+- **Frontend:** ASP.NET Web Forms, HTML5, CSS3, JavaScript, jQuery, Knockout.js
 - **Backend:** C#, ASP.NET Web Forms, ADO.NET
 - **Database:** MySQL
 - **Web Services:** ASMX (for client-side AJAX calls)
